@@ -1,0 +1,13 @@
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://111.231.82.13:6630/database_103?useUnicode=true&characterEncoding=utf8&serverTimezone=CTT&useSSL=false&allowMultiQueries=true
+    username: yanfa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: yqKjKHX.1:bv
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
